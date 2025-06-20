@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    
+}
+.navbar{
+     width: 100%;
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: space-between;
+    position:absolute;
+    top: 0;
+   
+}
+li{
+    display: inline-block;
+   padding: 10px;
+   margin-right: 100px;
+   
+  
+}
+ul{
+    
+    display: flex;
+  justify-content: center;
+  
+  margin-top: 40px;
+    
+}
+.inline{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+li a button :hover {
+  background-color :#bcbec1;
+}
+a{
+    padding: 10px;
+    text-decoration: none;
+}
+li a button {
+   
+    background-color:black;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+    
+}
+.inline a{
+    color: white;
+    font-weight:bold;
+    padding: 10px;
+}
+img{
+    height: 80px;
+    width: 80px;
+    margin-top: 15px;
+    
+    
+}
+.logo{
+width: 250px;
+    height: 100px;
+    overflow: hidden;
+}
+.tech{
+  width: 250px;
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+    right:354px;
+    top: 10px;
+}
+.sprite-logo {
+    width: 1128px;
+    height: 515px;
+    background: url('twclogotechwinclub.png') no-repeat -1598px -1786px;
+    transform: scale(0.097);
+    padding-top: 0;
+    margin-top: 10px;
+    margin-left:10px;
+    transform-origin: top left;
+    display: inline-block;
+}
+.tech-logo{
+	background: url('twclogotechwinclub.png') no-repeat -144px -490px;
+	width: 1079px;
+	height: 350px;
+transform: scale(0.097);
+    padding-top: 0;
+    margin-top: 10px;
+    margin-left:10px;
+    transform-origin: top left;
+}
+
+.home-section,
+.about-section {
+    height: 100vh; 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-section {
+  margin-top: 10px;
+  padding-top: 10px;
+    background-color: #f5f5f5;
+    font-family: 'Anton', sans-serif;
+}
+
+.about-section {
+    background-color: #b35050;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+input[type=radio] {
+  display: none;
+}
+
+.card {
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transition: transform .4s ease;
+  cursor: pointer;
+  border-radius: 20q;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh ;
+  transform-style: preserve-3d;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color:#666;
+ 
+}
+
+.cards {
+  position: relative;
+  width: 100%;
+  max-height:300px;
+  max-width:300px ;
+  height: 100%;
+  margin-bottom: 20px;
+  right: 333px;
+  perspective: 1000px;
+  top:54px
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+#item-1:checked ~ .cards #song-3, #item-2:checked ~ .cards #song-1, #item-3:checked ~ .cards #song-2 {
+  transform: translatex(-89%) scale(.8) rotateY(60deg);
+  opacity: .4;
+  z-index: 0;
+  transform-style: preserve-3d;
+}
+
+#item-1:checked ~ .cards #song-2, #item-2:checked ~ .cards #song-3, #item-3:checked ~ .cards #song-1 {
+  transform: translatex(89%) scale(.8) rotateY(-60deg);
+  opacity: .4;
+  z-index: 0;
+    transform-style: preserve-3d;
+
+}
+
+#item-1:checked ~ .cards #song-1, #item-2:checked ~ .cards #song-2, #item-3:checked ~ .cards #song-3 {
+  transform: translatex(0) scale(1);
+  opacity: 1;
+  z-index: 1;
+  
+  img {
+    box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
+  }
+}
+
+.player {
+  background-color: #fff;
+  border-radius: 8px;
+  min-width: 320px;
+  padding: 16px 10px;
+}
+
+.upper-part {
+  position: relative;
+  display: flex;
+align-items: center;
+  margin-bottom: 12px;
+  height: 36px;
+  overflow: hidden;
+}
+label{
+  background-color: grey;
+}
+.glass{
+  height: 200px;
+  width: 300px;
+  background-color: #d9d9d964;
+  color: white;
+  backdrop-filter:blur(15px);
+  border: 1px solid grey;
+  border-radius: 8px;
+  position: relative;
+  bottom: 200px;
+  left: 287px;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.07);
+  
+}
+.glasstext{
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+}
+.glass h1{
+  text-align: center;
+  color: white;
+  text-shadow: 3px 3px 20px white;
+}
