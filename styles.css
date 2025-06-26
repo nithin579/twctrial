@@ -121,12 +121,8 @@ width: 250px;
 	background: url('twclogotechwinclub.png') no-repeat -144px -490px;
 	width: 1079px;
 	height: 350px;
-transform: scale(0.097);
-    margin: 0;
-    padding: 0;
 transform: rotateY(1deg) scale(0.2) rotateX(1deg) rotateZ(0deg);    transform-origin: top left;
-    perspective: 1000px;
-    box-shadow: -30px 35px 30px rgba(230, 225, 225, 0.86);
+perspective: 1000px;
   
 }
 
@@ -251,13 +247,13 @@ label{
   background-color: grey;
 }
 .glass-card{
-font-family: "Kulim Park", sans-serif;
+
   height: 387px;
   width: 722px;
   background-color: #d9d9d964;
   color: white;
   backdrop-filter:blur(7px);
-  border: 1px solid grey;
+  border: 1px solid rgb(245, 239, 239);
   border-radius: 49px;
   position: absolute;
   top: 167px;
@@ -266,16 +262,21 @@ font-family: "Kulim Park", sans-serif;
  padding: 85px;
 }
 .glasstext{
-  text-align: center;
+  font-family: "Kulim Park", sans-serif;
   margin-top: 10px;
   color: white;
+  
 }
-.glass h1{
+.glass-card h1{
+font-size: 36px;
   font-family: "Lexend Exa", sans-serif;
-  text-align: center;
-  color: white;
-  text-shadow: 3px 3px 20px white;
+ letter-spacing: 6px;
+text-shadow: 0 0 3px #fff,
+                   0 0 0px #fff,
+                   0 0 10px #fff;
+
 }
+
 .ellipse-bg{
   height: 100px;
   width: 100px;
