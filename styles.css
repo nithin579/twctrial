@@ -247,13 +247,13 @@ label{
   background-color: grey;
 }
 .glass-card{
-
   height: 387px;
   width: 722px;
   background-color: #d9d9d964;
   color: white;
   backdrop-filter:blur(7px);
-  border: 1px solid rgb(245, 239, 239);
+  border-bottom:1px solid rgba(255, 255, 255 );
+  border-right:1px solid rgb(255, 255, 255) ;
   border-radius: 49px;
   position: absolute;
   top: 167px;
@@ -267,7 +267,7 @@ label{
   color: white;
   
 }
-.glass-h1{
+.glass-card h1{
 font-size: 36px;
   font-family: "Lexend Exa", sans-serif;
  letter-spacing: 6px;
@@ -285,4 +285,9 @@ text-shadow: 0 0 3px #fff,
   position:absolute;
   top:-61px;
   right: 823px;
+}
+@media only screen and (max-width: 1000px) {
+  body {
+    background-color: lightblue;
+  }
 }
