@@ -7,57 +7,78 @@
 }
 body{
     height: 100vh;
-    width: 100%;
+    width: 100vw;
 
 }
-.navbar{
-     width: 100%;
+.home{
+    height: 100vh; 
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    background-color: #d9d9d9;
+    font-family: 'Anton', sans-serif;
+}
+.nav{
+     width: 100vw;
     display: flex;
     justify-content: space-between;
     position:absolute;
         overflow: hidden;
     top: 0;
+    
    
 }
-li{
+.logo{
+width: 100%;
+    height: 100px;
+    overflow: hidden;
+    margin-top: 40px;
+    position: relative;
+    left:10px;
+    bottom:6px;
+}
+.icons{
+  width: 89%;
+  height: 100%;
+font-family: 'Simple Dandy', sans-serif;
     display: flex;
-   padding: 10px;
+    gap: 85px;
+    position: relative;
+    right:99px;
+    
+}
+li{
+  max-width: 3rem;
+    display: flex;
+   padding: 5px;
    margin-right: 100px;
+   
   
 }
 .hr-top{
   width: 100vw;
   position: relative;
   top:-164px;
+  color: white;
 }
 .hr-bottom{
   width: 100vw;
   position: relative;
   top:194px;
+  color: white;
 }
-.space{
+ /*.space{
   width: 120px;
-}
+}*/
 ul{
-    
-    display: flex;
+   display: flex;
   justify-content: center;
-  
   margin-top: 40px;
-    
-}
-.inline{
-font-family: 'Simple Dandy', sans-serif;
-    display: flex;
-    gap: 9px;
-    position: relative;
-    left:170px;
-    
 }
 
-li a button :hover {
-  background-color :#bcbec1;
-}
 a{
     padding: 10px;
     text-decoration: none;
@@ -65,16 +86,18 @@ a{
 li a button {
    font-family: 'Simple Dandy', sans-serif;
 font-weight: bold;
-border-radius:30px;
-height: 44px;
-width: 138px;
+border-radius:100px;
+height: 98px;
+width: 232px;
     background-color:black;
     color: white;
-   
-    padding: 5px 10px;
+    padding: 3px 4px;
+    letter-spacing: 3px;
+    margin-top: -30px;
+    margin-left:-35px;
     
 }
-.inline a{
+.icons a{
   height: 100px;
   width:250px;
     color: white;
@@ -88,15 +111,7 @@ img{
     margin-top: 15px;
       
 }
-.logo{
-width: 250px;
-    height: 100px;
-    overflow: hidden;
-    margin-top: 40px;
-    position: relative;
-    left:10px;
-    bottom:6px;
-}
+
 .tech{
   width: 250px;
     height: 100px;
@@ -126,29 +141,7 @@ perspective: 1000px;
   
 }
 
-.home-section,
-.about-section {
-    height: 100vh; 
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
-.home-section {
-  height: 100vh; 
-    width: 100vw;
-  padding-top: 10px;
-    background-color: #d9d9d9;
-    font-family: 'Anton', sans-serif;
-}
-
-.about-section {
-    background-color: #b35050;
-    color: black;
-    font-family: 'Open Sans', sans-serif;
-}
 
 input[type=radio] {
   display: none;
