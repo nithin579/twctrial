@@ -8,7 +8,6 @@
 body{
     height: 100vh;
     width: 100vw;
-
 }
 .home{
     height: 100vh; 
@@ -26,13 +25,11 @@ body{
     display: flex;
     justify-content: space-between;
     position:absolute;
-        overflow: hidden;
+    overflow: hidden;
     top: 0;
-    
-   
 }
 .logo{
-width: 100%;
+    width: 100%;
     height: 100px;
     overflow: hidden;
     margin-top: 40px;
@@ -41,79 +38,69 @@ width: 100%;
     bottom:6px;
 }
 .icons{
-  width: 89%;
-  height: 100%;
-font-family: 'Simple Dandy', sans-serif;
+    width: 89%;
+    height: 100%;
+    font-family: 'Simple Dandy', sans-serif;
     display: flex;
     gap: 85px;
     position: relative;
     right:99px;
-    
 }
 li{
-  max-width: 3rem;
+    max-width: 3rem;
     display: flex;
-   padding: 5px;
-   margin-right: 100px;
-   
-  
+    padding: 5px;
+    margin-right: 100px;
 }
 .hr-top{
-  width: 100vw;
-  position: relative;
-  top:-164px;
-  color: white;
+    width: 100vw;
+    position: relative;
+    top:-164px;
+    color: white;
 }
 .hr-bottom{
-  width: 100vw;
-  position: relative;
-  top:194px;
-  color: white;
+    width: 100vw;
+    position: relative;
+    top:194px;
+    color: white;
 }
- /*.space{
-  width: 120px;
-}*/
 ul{
-   display: flex;
-  justify-content: center;
-  margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
 }
-
 a{
     padding: 10px;
     text-decoration: none;
 }
 li a button {
-   font-family: 'Simple Dandy', sans-serif;
-font-weight: bold;
-border-radius:100px;
-height: 98px;
-width: 232px;
+    font-family: 'Simple Dandy', sans-serif;
+    font-weight: bold;
+    border-radius:150px;
+    height: 78px;
+    width: 186px;
     background-color:black;
     color: white;
     padding: 3px 4px;
+    font-size: large;
     letter-spacing: 3px;
-    margin-top: -30px;
-    margin-left:-35px;
-    
+    margin-left: -30px;
 }
 .icons a{
-  height: 100px;
-  width:250px;
+    height: 100px;
+    width:250px;
     color: white;
     font-weight:bold;
     padding: 10px;
-    font-size: 30px;;
+    font-size: 30px;
 }
 img{
     height: 80px;
     width: 80px;
     margin-top: 15px;
-      
 }
-
 .tech{
-  width: 250px;
+    width: 250px;
     height: 100px;
     overflow: hidden;
     position: absolute;
@@ -127,160 +114,180 @@ img{
     background: url('twclogotechwinclub.png') no-repeat -1598px -1786px;
     transform: scale(0.097);
     padding-top: 0;
-    margin-top: 10px;
+    margin-top: 10px ;
     margin-left:10px;
     transform-origin: top left;
     display: inline-block;
 }
 .tech-logo{
-	background: url('twclogotechwinclub.png') no-repeat -144px -490px;
-	width: 1079px;
-	height: 350px;
-transform: rotateY(1deg) scale(0.2) rotateX(1deg) rotateZ(0deg);    transform-origin: top left;
-perspective: 1000px;
-  
+    background: url('twclogotechwinclub.png') no-repeat -144px -490px;
+    width: 1079px;
+    height: 350px;
+    transform: rotateY(1deg) scale(0.2) rotateX(1deg) rotateZ(0deg);
+    transform-origin: top left;
+    perspective: 1000px;
 }
-
-
-
 input[type=radio] {
-  display: none;
+    display: none;
 }
-
 .card {
-  position: absolute;
-  width: 60%;
-  height: 100%;
-  left: 0;
-  right: 0;
-  margin: auto;
-  transition: transform .4s ease;
-  cursor: pointer;
-  border-radius: 20q;
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: transform .4s ease;
+    cursor: pointer;
+    border-radius: 20q;
 }
-
 .container {
-  width: 100vw;
-  height: 111vh ;
-  transform-style: preserve-3d;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  background-color:#666;
-  position: relative; 
-}
-
-.cards {
-  position: relative;
-  width: 100%;
-  max-height:287px;
-  max-width:281px ;
-  height: 100%;
-  margin-bottom: 20px;
-  right: 457px;
-  perspective: 1000px;
-bottom: -4px; 
- transform: scale(1.7);
-}
-
-img {
-  width: 100%;
-  height: 100%;
-  border-radius: 10px;
-  object-fit: cover;
-}
-.img{
-  position: relative;
-  top:275px;
-  transform:skewY(-4deg)
-}
-
-#item-1:checked ~ .cards #song-3, #item-2:checked ~ .cards #song-1, #item-3:checked ~ .cards #song-2 {
-  transform: translatex(-79%) scale(.8) rotateY(61deg);
-  opacity: .4;
-  z-index: 0;
-  transform-style: preserve-3d;
-}
-
-#item-1:checked ~ .cards #song-2, #item-2:checked ~ .cards #song-3, #item-3:checked ~ .cards #song-1 {
-  transform: translatex(79%) scale(.8) rotateY(-61deg);
-  opacity: .4;
-  z-index: 0;
+    width: 100vw;
+    height: 111vh ;
     transform-style: preserve-3d;
-
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color:#666;
+    position: relative; 
 }
-
+.cards {
+    position: relative;
+    width: 100%;
+    max-height:287px;
+    max-width:281px ;
+    height: 100%;
+    margin-bottom: 20px;
+    right: 457px;
+    perspective: 1000px;
+    bottom: -4px; 
+    transform: scale(1.7);
+}
+.img {
+    position: relative;
+    top:275px;
+    transform:skewY(-4deg)
+}
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+#item-1:checked ~ .cards #song-3, #item-2:checked ~ .cards #song-1, #item-3:checked ~ .cards #song-2 {
+    transform: translatex(-79%) scale(.8) rotateY(61deg);
+    opacity: .4;
+    z-index: 0;
+    transform-style: preserve-3d;
+}
+#item-1:checked ~ .cards #song-2, #item-2:checked ~ .cards #song-3, #item-3:checked ~ .cards #song-1 {
+    transform: translatex(79%) scale(.8) rotateY(-61deg);
+    opacity: .4;
+    z-index: 0;
+    transform-style: preserve-3d;
+}
 #item-1:checked ~ .cards #song-1, #item-2:checked ~ .cards #song-2, #item-3:checked ~ .cards #song-3 {
-  transform: translatex(0) scale(1);
-  opacity: 1;
-  z-index: 1;
-  
-  img {
-    box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
-  }
+    transform: translatex(0) scale(1);
+    opacity: 1;
+    z-index: 1;
 }
-
 .player {
-  background-color: #fff;
-  border-radius: 8px;
-  min-width: 320px;
-  padding: 16px 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    min-width: 320px;
+    padding: 16px 10px;
 }
-
 .upper-part {
-  position: relative;
-  display: flex;
-align-items: center;
-  margin-bottom: 12px;
-  height: 36px;
-  overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    height: 36px;
+    overflow: hidden;
 }
-label{
-  background-color: grey;
+label {
+    background-color: grey;
 }
-.glass-card{
-  height: 387px;
-  width: 722px;
-  background-color: #d9d9d964;
-  color: white;
-  backdrop-filter:blur(7px);
-  border-bottom:1px solid rgba(255, 255, 255 );
-  border-right:1px solid rgb(255, 255, 255) ;
-  border-radius: 49px;
-  position: absolute;
-  top: 167px;
-  right:132px;
-  box-shadow: 1px 1px 1px rgba(0,0,0,0.07);
- padding: 85px;
+.glass-card {
+    height: auto;
+    width: 722px;
+    background-color: #d9d9d964;
+    color: white;
+    backdrop-filter:blur(7px);
+    border-bottom:1px solid rgba(255, 255, 255 );
+    border-right:1px solid rgb(255, 255, 255) ;
+    border-radius: 49px;
+    position: absolute;
+    top: 167px;
+    right:132px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.07);
+    padding: 85px;
 }
-.glasstext{
-  font-family: "Kulim Park", sans-serif;
-  margin-top: 10px;
-  color: white;
-  
+.glasstext {
+    font-family: "Kulim Park", sans-serif;
+    margin-top: 10px;
+    color: white;
 }
-.glass-card h1{
-font-size: 36px;
-  font-family: "Lexend Exa", sans-serif;
- letter-spacing: 6px;
-text-shadow: 0 0 3px #fff,
-                   0 0 0px #fff,
-                   0 0 10px #fff;
-
+.glass-card h1 {
+    font-size: 36px;
+    font-family: "Lexend Exa", sans-serif;
+    letter-spacing: 6px;
+    text-shadow: 0 0 3px #fff,
+                 0 0 0px #fff,
+                 0 0 10px #fff;
 }
-
-.ellipse-bg{
-  height: 100px;
-  width: 100px;
-  overflow: visible;
-  transform: scale(0.75);
-  position:absolute;
-  top:-61px;
-  right: 823px;
+.ellipse-bg {
+    height: 100px;
+    width: 100px;
+    overflow: visible;
+    transform: scale(0.75);
+    position:absolute;
+    top:-61px;
+    right: 823px;
 }
-@media only screen and (max-width: 1000px) {
-  body {
-    background-color: lightblue;
+@media only screen and (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  .icons {
+    flex-direction: column;
+    gap: 20px;
+    right: 0;
+  }
+  .logo {
+    width: auto;
+    margin-top: 20px;
+    left: 0;
+  }
+  .img {
+    top: 100px;
+    transform: none;
+    text-align: center;
+  }
+  .img img {
+    height: 60px;
+    width: 60px;
+  }
+  .container {
+    height: auto;
+    padding: 20px 0;
+  }
+  .cards {
+    transform: scale(1);
+    right: 0;
+    margin: 0 auto;
+  }
+  .glass-card {
+    width: 90%;
+    padding: 30px;
+    right: auto;
+    top: auto;
+    position: relative;
+    margin-top: 20px;
+  }
+  .ellipse-bg {
+    display: none;
   }
 }
